@@ -31,13 +31,13 @@ body{
   flex-wrap: wrap;
   width: 400px;
   height: 300px;
-  padding-left: 39%;
+  padding-left: 37%;
 }
 
 .botao{
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   width: 10vw;
-  height: 6vh;
+  height: 8vh;
   border: none;
 }
 
@@ -62,7 +62,7 @@ body{
 
   .botao{
     width: 20vw;
-    height: 3vh;
+    height: 5vh;
   }
 
   .botao:hover{
