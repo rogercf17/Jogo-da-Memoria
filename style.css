@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: rgb(255, 255, 255);
+  text-align: center;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+  color: rgb(86, 86, 86);
+  font-size: 2rem;
+  padding-top: 5%;
+}
+
+.conteiner{
+  width: 100%;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  gap: 20px;
+  padding: 0 41%;
+}
+
+.botao{
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  width: 10vw;
+  height: 6vh;
+  border: none;
+}
+
+.botaoA{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.botao:hover{
+  width: 15vw;
+  height: 8vh;
+  border: 1px solid #000;
+  box-shadow: 2%;
+  font-size: 1.4rem;
+}
