@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  
+
   const cardArray = [
     {
       name: 'arara',
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     cardsChosen = [];
     cardsChosenId = [];
-    resultDisplay.textContent = cardsWon.length;
+    resultDisplay.textContent = "\n" + cardsWon.length;
 
     if  (cardsWon.length === cardArray.length/2) {
       resultDisplay.textContent = '\nParabéns, você achou todos os animais!'
