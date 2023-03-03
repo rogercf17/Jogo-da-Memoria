@@ -52,3 +52,22 @@ body{
   box-shadow: 2%;
   font-size: 1.4rem;
 }
+
+@media(max-width: 1070px){
+  .grid{
+    padding-left: 30%;
+  }
+
+  .botao{
+    width: 20vw;
+    height: 3vh;
+  }
+
+  .botao:hover{
+    width: 25vw;
+    height: 5vh;
+    border: 1px solid #000;
+    box-shadow: 2%;
+    font-size: 1.4rem;
+  }
+}
